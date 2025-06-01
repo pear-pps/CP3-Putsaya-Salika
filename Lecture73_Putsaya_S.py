@@ -1,6 +1,8 @@
 menuDict = {'fried rice':65,'burger':45,'spaghetti':99,'noodle':55,'salad':60}
 menuList = []
 sum=0
+
+print(menuDict)
 while True:
     menuInput = input("MENU(type exit to finish): ")
     if menuInput.lower() == "exit":
